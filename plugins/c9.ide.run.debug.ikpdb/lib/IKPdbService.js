@@ -46,7 +46,7 @@ define(function(require, exports, module) {
 
             this._socket.on("connect", function() {
                 // console.debug("IKPdb socket connection succeeded!");
-                this._connected = true; 
+                self._connected = true;
             });
             
             this._socket.on("end", function() {
